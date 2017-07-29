@@ -13,7 +13,9 @@ function clearDefault(a) {
 
 function add() {
     var task = document.getElementById('task').value;
-
+    if(task == ''){
+        alert('null');
+    }else{
     var todos = get_todos();
     todos.push(task);
     localStorage.setItem('todo', JSON.stringify(todos));
@@ -21,6 +23,8 @@ function add() {
     show();
 
     return false;
+    }
+   
 }
 
 function remove() {
@@ -33,8 +37,6 @@ function remove() {
 
     return false;
 }
-
-
 function show() {
     var todos = get_todos();
 

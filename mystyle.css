@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: #6495ed;
+    background-color: #9db7e4;
     color: white;
     font-family: helvetica,Arial;
 }
@@ -14,7 +14,7 @@ body {
     margin-top: 35px;
 }
 .remove {
-    margin-top:13px;
+    margin-top:8px;
     background-color: #f2f205;
     float: right;
     clear:both;
@@ -23,19 +23,20 @@ body {
     width:60px;
     height:20px;
     border-style: none;
+    cursor: pointer;
 
 }
 
 #wrapper {
     width: 50%;
-    background-color: #000365;
+    background-color: #565773;
     margin-top: 12%;
     margin-left: 22%;
     padding-bottom: 5%;
     padding-left: 4%;
     padding-top: 3%;
     padding-right: 4%;
-    box-shadow: 10px 10px 5px #474cf7;
+    box-shadow: 10px 10px 5px #6a6dd4;
 }
 
 ul {
