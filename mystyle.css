@@ -27,13 +27,28 @@ body {
 }
 
 #wrapper {
-    width: 450px;
+    width: 50%;
     background-color: #000365;
-    margin-top: 120px;
-    margin-left: 295px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    padding-top: 30px;
-    padding-right: 65px;
-    border-radius: 25px;
+    margin-top: 12%;
+    margin-left: 22%;
+    padding-bottom: 5%;
+    padding-left: 4%;
+    padding-top: 3%;
+    padding-right: 4%;
+    box-shadow: 10px 10px 5px #474cf7;
+}
+
+ul {
+    list-style:none;
+    text-align: left;
+    line-height: 35px;
+
+}
+#task {
+    width: 80%;
+    height: 30px;
+    margin-left:1%;
+}
+h1{
+    margin-top:30px;
 }
